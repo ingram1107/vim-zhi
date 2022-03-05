@@ -30,7 +30,7 @@ colorscheme zhi
 
 - [x] lsp (Diagnostic*)
 - [ ] nvim-treesitter
-- [ ] nvim-tree
+- [x] nvim-tree
 - [ ] telescope
 - [ ] nvim-cmp
 
