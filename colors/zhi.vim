@@ -190,3 +190,15 @@ call s:HL("Error", s:zhi.red)
 call s:HL("Conceal", s:zhi.black)
 call s:HL("Folded", s:none, s:zhi.light_yellow)
 call s:HL("FoldColumn", s:none, s:zhi.light_gray)
+
+if has('nvim-0.6.0')
+  " LSP Diagnostic
+  call s:HL("DiagnosticError", s:zhi.red)
+  call s:HL("DiagnosticWarn", s:zhi.orange)
+  call s:HL("DiagnosticInfo", s:zhi.cyan)
+  call s:HL("DiagnosticHint", s:zhi.blue)
+  call s:HL("DiagnosticUnderlineError", s:zhi.red, s:none, s:undercurl)
+  call s:HL("DiagnosticUnderlineWarn", s:zhi.orange, s:none, s:undercurl)
+  call s:HL("DiagnosticUnderlineInfo", s:zhi.cyan, s:none, s:undercurl)
+  call s:HL("DiagnosticUnderlineHint", s:zhi.blue, s:none, s:undercurl)
+endif

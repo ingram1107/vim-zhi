@@ -28,7 +28,7 @@ colorscheme zhi
 
 ## Plugin Support
 
-- [ ] lsp (Diagnostic*)
+- [x] lsp (Diagnostic*)
 - [ ] nvim-treesitter
 - [ ] nvim-tree
 - [ ] telescope
