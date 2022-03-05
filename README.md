@@ -33,6 +33,7 @@ colorscheme zhi
 - [x] nvim-tree
 - [ ] telescope
 - [ ] nvim-cmp
+- [x] fidget.nvim
 
 **Note**: *create PR to add more support for your favourite plugin!*
 

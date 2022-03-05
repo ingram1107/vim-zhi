@@ -214,4 +214,8 @@ if has('nvim-0.6.0')
   call s:HL("NvimTreeSpecialFile", s:zhi.black)
   call s:HL("NvimTreeImageFile", s:zhi.black)
   call s:HL("NvimTreeIndentMarker", s:zhi.gray)
+
+  " Fidget (j-hui/fidget.nvim)
+  call s:HL("FidgetTitle", s:zhi.black, s:none, s:bold)
+  call s:HL("FidgetTask", s:zhi.gray)
 endif
