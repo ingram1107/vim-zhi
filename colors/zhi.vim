@@ -215,6 +215,11 @@ if has('nvim-0.6.0')
   call s:HL("NvimTreeImageFile", s:zhi.black)
   call s:HL("NvimTreeIndentMarker", s:zhi.gray)
 
+  " Neogit
+  call s:HL("NeogitNotificationInfo", s:zhi.black)
+  call s:HL("NeogitNotificationWarning", s:zhi.orange)
+  call s:HL("NeogitNotificationError", s:zhi.red)
+
   " Fidget (j-hui/fidget.nvim)
   call s:HL("FidgetTitle", s:zhi.black, s:none, s:bold)
   call s:HL("FidgetTask", s:zhi.gray)

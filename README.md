@@ -34,6 +34,7 @@ colorscheme zhi
 - [ ] telescope
 - [ ] nvim-cmp
 - [x] fidget.nvim
+- [x] neogit
 
 **Note**: *create PR to add more support for your favourite plugin!*
 
