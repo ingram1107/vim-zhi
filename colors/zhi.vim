@@ -216,9 +216,11 @@ if has('nvim-0.6.0')
   call s:HL("NvimTreeIndentMarker", s:zhi.gray)
 
   " Neogit
-  call s:HL("NeogitNotificationInfo", s:zhi.black)
-  call s:HL("NeogitNotificationWarning", s:zhi.orange)
-  call s:HL("NeogitNotificationError", s:zhi.red)
+  call s:HL("NeogitHunkHeader", s:zhi.white, s:zhi.orange, s:bold)
+  call s:HL("NeogitDiffAdd", s:zhi.green, s:none, s:italic)
+  call s:HL("NeogitDiffDelete", s:zhi.red, s:none, s:italic)
+  call s:HL("NeogitDiffAddHighlight", s:zhi.green, s:none, s:bold)
+  call s:HL("NeogitDiffDeleteHighlight", s:zhi.red, s:none, s:bold)
 
   " Fidget (j-hui/fidget.nvim)
   call s:HL("FidgetTitle", s:zhi.black, s:none, s:bold)
